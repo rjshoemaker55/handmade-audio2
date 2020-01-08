@@ -1,0 +1,16 @@
+#landing-wrapper {
+  background-image: url('../../images/statement_header.jpg');
+  background-size: 100% auto;
+  background-position-y: 80px;
+  background-repeat: no-repeat;
+  height: 100vh;
+  overflow: auto;
+  padding: 60px;
+}
+
+#statement-text {
+  padding: 250px 20px;
+  font-size: 60px;
+  font-weight: bold;
+  color: white;
+}
