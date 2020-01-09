@@ -2,15 +2,47 @@
   background-image: url('../../images/statement_header.jpg');
   background-size: 100% auto;
   background-position-y: 80px;
+  background-position-x: 40px;
   background-repeat: no-repeat;
   height: 100vh;
-  overflow: auto;
-  padding: 60px;
+  overflow: hidden;
+  padding: 40px;
 }
 
-#statement-text {
-  padding: 250px 20px;
+#landing-jumbo-wrapper {
+  margin: 350px 90px;
+}
+
+#landing-jumbo-header {
   font-size: 60px;
   font-weight: bold;
   color: white;
+  letter-spacing: 1.5px;
+}
+
+#landing-jumbo-body {
+  color: white;
+  font-weight: 200;
+  padding-left: 10px;
+  font-size: 20px;
+}
+
+#brands-button-wrapper {
+  background: rgba(71, 71, 71, 0.7);
+  padding: 10px 20px;
+  margin-top: 80px;
+  display: inline-block;
+  text-decoration: none;
+}
+
+#brands-button {
+  text-decoration: none;
+  color: white;
+  font-weight: 200;
+  font-size: 18px;
+  line-height: 1;
+}
+
+#brands-button-wrapper:hover {
+  background: rgba(71, 71, 71, 1);
 }
