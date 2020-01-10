@@ -1,11 +1,31 @@
 import React from 'react';
+import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
+
 import logo from './logo.svg';
 import './App.css';
 
+import Navbar from './components/Navbar/Navbar';
 import Landing from './screens/Landing/Landing';
+import Brands from './screens/Brands/Brands';
+import Contact from './screens/Contact/Contact';
 
 const App = () => {
-  return <Landing />;
+  return (
+    <Router>
+      <Navbar />
+      <Switch>
+        <Route path='/brands'>
+          <Brands />
+        </Route>
+        <Route path='contact'>
+          <Contact />
+        </Route>
+        <Route path='/'>
+          <Landing />
+        </Route>
+      </Switch>
+    </Router>
+  );
 };
 
 export default App;

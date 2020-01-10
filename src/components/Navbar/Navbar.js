@@ -1,20 +1,33 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 import './styles.css';
 
 const Navbar = () => {
   return (
     <div id='nav-wrapper'>
+      <Link id='brand-item' to='/'>
+        Handmade Audio
+      </Link>
       <ul id='nav-list'>
-        <li id='brand-item'>Handmade Audio</li>
         <li className='nav-item'>
-          <a className='nav-link' href='#'>
+          <Link className='nav-link' to='/brands'>
             Brands
-          </a>
+          </Link>
         </li>
         <li className='nav-item'>
-          <a className='nav-link' href='#'>
+          <Link className='nav-link' to='/contact'>
             Contact
+          </Link>
+        </li>
+        <li className='mobile-nav-item'>
+          <a className='mobile-nav-link' href='#'>
+            <i class='fas fa-tag'></i>
+          </a>
+        </li>
+        <li className='mobile-nav-item'>
+          <a className='mobile-nav-link' href='#'>
+            <i class='fas fa-envelope'></i>
           </a>
         </li>
       </ul>

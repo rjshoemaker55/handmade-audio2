@@ -7,7 +7,6 @@ import Navbar from '../../components/Navbar/Navbar';
 const Landing = () => {
   return (
     <div id='landing-wrapper'>
-      <Navbar />
       <div id='landing-jumbo-wrapper'>
         <div id='landing-jumbo-header'>Statement.</div>
         <div id='landing-jumbo-body'>by naim audio.</div>
