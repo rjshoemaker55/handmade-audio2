@@ -22,12 +22,12 @@ const Navbar = () => {
         </li>
         <li className='mobile-nav-item'>
           <a className='mobile-nav-link' href='#'>
-            <i class='fas fa-tag'></i>
+            <i className='fas fa-tag'></i>
           </a>
         </li>
         <li className='mobile-nav-item'>
           <a className='mobile-nav-link' href='#'>
-            <i class='fas fa-envelope'></i>
+            <i className='fas fa-envelope'></i>
           </a>
         </li>
       </ul>

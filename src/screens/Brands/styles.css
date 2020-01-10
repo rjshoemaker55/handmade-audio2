@@ -1,0 +1,7 @@
+#brands-page-wrapper {
+  display: flex;
+  flex: 1;
+  background-color: white;
+  height: 50px;
+  margin: 20px;
+}
