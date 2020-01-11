@@ -1,19 +1,23 @@
 #nav-wrapper {
+  width: 100%;
   margin-left: 40px;
   padding: 20px;
+  position: relative;
 }
 
-#brand-item {
-  font-size: 25px;
-  font-weight: bold;
-  margin-right: 50px;
-  color: white;
-  display: inline-block;
-  text-decoration: none;
+.handmade-logo {
+  height: 70px;
+}
+
+#handmade-logo-black {
+  display: none;
 }
 
 #nav-list {
   display: inline-block;
+  position: absolute;
+  bottom: 45px;
+  margin-left: 60px;
 }
 .nav-item {
   color: white;
@@ -43,11 +47,12 @@
 
 .mobile-nav-link {
   color: black;
-  font-size: 20px;
+  font-size: 30px;
 }
 
 .mobile-nav-item {
   display: none;
+  margin-top: 10px;
 }
 
 .mobile-nav-item + .mobile-nav-item {
@@ -64,18 +69,24 @@
   }
   #nav-list {
     float: right;
-    margin-top: 5px;
+    top: 25px;
+    margin-left: 100px;
   }
 
-  #brand-item {
-    margin-right: 0px;
-    color: black;
-  }
   .nav-item {
     display: none;
   }
 
   .mobile-nav-item {
     display: inline-block;
+  }
+
+  #handmade-logo-black {
+    display: inline-block;
+    margin-right: 0px;
+  }
+
+  #handmade-logo-white {
+    display: none;
   }
 }
