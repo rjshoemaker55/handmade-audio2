@@ -1,5 +1,7 @@
 import React from 'react';
 
+import { Link } from 'react-router-dom';
+
 import './styles.css';
 
 import Navbar from '../../components/Navbar/Navbar';
@@ -10,9 +12,9 @@ const Landing = () => {
       <div id='landing-jumbo-wrapper'>
         <div id='landing-jumbo-header'>Statement.</div>
         <div id='landing-jumbo-body'>by naim audio.</div>
-        <a id='brands-button-wrapper' href='#'>
+        <Link id='brands-button-wrapper' to='/brands'>
           <div id='brands-button'>Explore our brands ></div>
-        </a>
+        </Link>
       </div>
     </div>
   );
