@@ -10,7 +10,7 @@ import Contact from './screens/Contact/Contact';
 
 const App = () => {
   return (
-    <Router>
+    <Router basename='/handmade-audio2'>
       <Navbar />
       <Switch>
         <Route path='/brands'>
