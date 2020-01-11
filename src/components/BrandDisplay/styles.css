@@ -71,3 +71,28 @@
   font-weight: 400;
   font-size: 15px;
 }
+
+/* Responsiveness */
+
+@media only screen and (max-width: 600px) {
+  #naim-brand {
+    background-image: url('../../assets/images/brands/naim_mobile.png');
+    background-position: center;
+    background-size: 100% 100%;
+  }
+
+  .brand-wrapper {
+    background-size: auto 100%;
+    background-position-x: -380px;
+  }
+
+  .brand-name {
+    display: none;
+  }
+
+  .brand-logo-wrapper {
+    position: absolute;
+    left: 30px;
+    bottom: 30px;
+  }
+}
