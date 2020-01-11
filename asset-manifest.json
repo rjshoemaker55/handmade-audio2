@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.99acd819.chunk.css",
+    "main.js": "/static/js/main.6eac52f4.chunk.js",
+    "main.js.map": "/static/js/main.6eac52f4.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.42cde561.js",
+    "runtime-main.js.map": "/static/js/runtime-main.42cde561.js.map",
+    "static/js/2.4d3a489e.chunk.js": "/static/js/2.4d3a489e.chunk.js",
+    "static/js/2.4d3a489e.chunk.js.map": "/static/js/2.4d3a489e.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.32b79e49104ec37a60a05595e663dd7e.js": "/precache-manifest.32b79e49104ec37a60a05595e663dd7e.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.99acd819.chunk.css.map": "/static/css/main.99acd819.chunk.css.map",
+    "static/js/2.4d3a489e.chunk.js.LICENSE": "/static/js/2.4d3a489e.chunk.js.LICENSE",
+    "static/media/Soundwave_logo-black.png": "/static/media/Soundwave_logo-black.acadbe79.png",
+    "static/media/Soundwave_logo_white.png": "/static/media/Soundwave_logo_white.80de01a1.png",
+    "static/media/styles.css": "/static/media/statement_header.88aa51c2.jpg",
+    "static/media/credo_audio.png": "/static/media/credo_audio.e65988cb.png",
+    "static/media/focal_logo.png": "/static/media/focal_logo.9efbe542.png",
+    "static/media/naim_logo.jpeg": "/static/media/naim_logo.eff1662f.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.42cde561.js",
+    "static/js/2.4d3a489e.chunk.js",
+    "static/css/main.99acd819.chunk.css",
+    "static/js/main.6eac52f4.chunk.js"
+  ]
+}
