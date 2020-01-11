@@ -21,14 +21,14 @@ const Navbar = () => {
           </Link>
         </li>
         <li className='mobile-nav-item'>
-          <a className='mobile-nav-link' href='#'>
+          <Link className='mobile-nav-link' to='/brands'>
             <i className='fas fa-tag'></i>
-          </a>
+          </Link>
         </li>
         <li className='mobile-nav-item'>
-          <a className='mobile-nav-link' href='#'>
+          <Link className='mobile-nav-link' to='/contact'>
             <i className='fas fa-envelope'></i>
-          </a>
+          </Link>
         </li>
       </ul>
     </div>
