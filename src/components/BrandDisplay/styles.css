@@ -74,6 +74,7 @@
 
 /* Responsiveness */
 
+/* Smart Phones */
 @media only screen and (max-width: 600px) {
   #naim-brand {
     background-image: url('../../assets/images/brands/naim_mobile.png');
@@ -94,5 +95,35 @@
     position: absolute;
     left: 30px;
     bottom: 30px;
+  }
+}
+
+/* Tablets */
+@media only screen and (max-width: 768px) and (min-width: 601px) {
+  #iso-acoustics-logo {
+    width: 200px;
+  }
+
+  .brand-logo {
+    width: 220px;
+  }
+
+  .brand-visit-link {
+    display: none;
+  }
+
+  .brand-name {
+    left: 45%;
+  }
+
+  #naim-brand {
+    background-image: url('../../assets/images/brands/naim_mobile.png');
+    background-position: center;
+    background-size: 100% 100%;
+  }
+
+  .brand-wrapper {
+    background-size: auto 100%;
+    background-position-x: -480px;
   }
 }

@@ -67,3 +67,15 @@
     margin-top: 40px;
   }
 }
+
+@media only screen and (max-width: 768px) and (min-width: 601px) {
+  #landing-wrapper {
+    padding: 35px;
+    background-position: -50px 170px;
+    background-size: 120% auto;
+  }
+
+  #landing-jumbo-wrapper {
+    margin: 300px 20px;
+  }
+}

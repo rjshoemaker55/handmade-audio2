@@ -1,0 +1,34 @@
+#contact-wrapper {
+  background-image: url('../../assets/images/contact-background.jpg');
+  background-size: cover;
+  height: calc(100vh - 70px);
+  overflow: auto;
+  display: block;
+  text-align: center;
+}
+
+#contact-header {
+  font-size: 50px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  margin-top: 220px;
+}
+
+#contact-info-wrapper {
+  padding: 20px;
+  display: inline-block;
+  background: rgba(78, 78, 78, 0.8);
+  margin: 60px auto 0px auto;
+}
+
+.contact-row {
+  color: white;
+  font-size: 27px;
+  margin: 15px 0px;
+}
+
+.contact-row-text {
+  display: inline;
+  margin-left: 15px;
+}
