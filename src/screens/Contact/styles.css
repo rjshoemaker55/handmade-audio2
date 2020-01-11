@@ -1,7 +1,7 @@
 #contact-wrapper {
   background-image: url('../../assets/images/contact-background.jpg');
   background-size: cover;
-  height: calc(100vh - 70px);
+  height: calc(100vh - 110px);
   overflow: auto;
   display: block;
   text-align: center;
@@ -12,7 +12,7 @@
   font-weight: bold;
   color: white;
   text-align: center;
-  margin-top: 220px;
+  margin-top: 180px;
 }
 
 #contact-info-wrapper {
