@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f689dcae8ed5d73d61739a5c9f8fc273",
+    "revision": "e1d3c2955e927e683b11acfcdec79121",
     "url": "/handmade-audio2/index.html"
   },
   {
-    "revision": "9fcec9e63e178f664611",
-    "url": "/handmade-audio2/static/css/main.8d76cf47.chunk.css"
+    "revision": "a662b225834c508f798a",
+    "url": "/handmade-audio2/static/css/main.87504935.chunk.css"
   },
   {
     "revision": "694468a1e8f3aa69ef91",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/handmade-audio2/static/js/2.4d3a489e.chunk.js.LICENSE"
   },
   {
-    "revision": "9fcec9e63e178f664611",
-    "url": "/handmade-audio2/static/js/main.2dbd7da6.chunk.js"
+    "revision": "a662b225834c508f798a",
+    "url": "/handmade-audio2/static/js/main.fbbe53b7.chunk.js"
   },
   {
     "revision": "bdfd4cb03d0c1c416e40",
@@ -36,8 +36,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/handmade-audio2/static/media/contact-background.5c7b1b15.jpg"
   },
   {
-    "revision": "4ff70a025f0e58253c9354c45abe4fab",
-    "url": "/handmade-audio2/static/media/credo_audio.4ff70a02.jpeg"
+    "revision": "205397af9bb148f9d45e470c2ce32788",
+    "url": "/handmade-audio2/static/media/credo_audio.205397af.jpeg"
   },
   {
     "revision": "e65988cbed1bad868a75ccbf8641b273",
