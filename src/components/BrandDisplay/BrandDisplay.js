@@ -26,7 +26,7 @@ const BrandDisplay = props => {
         />
         <div className='brand-visit-link'>click to visit site</div>
       </a>
-      <div className='brand-name'>{props.brandName}</div>
+      {/* <div className='brand-name'>{props.brandName}</div> */}
     </div>
   );
 };
