@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b05146a182ea5f8fa2b3e222502af02f",
+    "revision": "6246722c2edecf3a7b26f13d864e6501",
     "url": "/handmade-audio2/index.html"
   },
   {
-    "revision": "540f2276ee91125528e9",
-    "url": "/handmade-audio2/static/css/main.435ba24c.chunk.css"
+    "revision": "b5317bb95f026adb7d1c",
+    "url": "/handmade-audio2/static/css/main.797900c3.chunk.css"
   },
   {
     "revision": "694468a1e8f3aa69ef91",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/handmade-audio2/static/js/2.4d3a489e.chunk.js.LICENSE"
   },
   {
-    "revision": "540f2276ee91125528e9",
+    "revision": "b5317bb95f026adb7d1c",
     "url": "/handmade-audio2/static/js/main.fbbe53b7.chunk.js"
   },
   {
