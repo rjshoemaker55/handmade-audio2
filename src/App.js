@@ -13,13 +13,13 @@ const App = () => {
     <Router basename='/handmade-audio2'>
       <Navbar />
       <Switch>
-        <Route path='/brands'>
+        <Route exact path='/brands'>
           <Brands />
         </Route>
-        <Route path='/contact'>
+        <Route exact path='/contact'>
           <Contact />
         </Route>
-        <Route path='/'>
+        <Route exact path='/'>
           <Landing />
         </Route>
       </Switch>
