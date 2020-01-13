@@ -1,5 +1,11 @@
 import React from 'react';
-import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link,
+  HashRouter
+} from 'react-router-dom';
 
 import './App.css';
 
@@ -10,7 +16,7 @@ import Contact from './screens/Contact/Contact';
 
 const App = () => {
   return (
-    <Router basename='/handmade-audio2'>
+    <HashRouter>
       <Navbar />
       <Switch>
         <Route exact path='/brands'>
@@ -23,7 +29,7 @@ const App = () => {
           <Landing />
         </Route>
       </Switch>
-    </Router>
+    </HashRouter>
   );
 };
 

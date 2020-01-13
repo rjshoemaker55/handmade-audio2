@@ -8497,6 +8497,11 @@ react-router@5.1.2:
     tiny-invariant "^1.0.2"
     tiny-warning "^1.0.0"
 
+react-script@^2.0.4:
+  version "2.0.4"
+  resolved "https://registry.yarnpkg.com/react-script/-/react-script-2.0.4.tgz#518bbbfc080601404a923e6e03f18dd57b301adb"
+  integrity sha1-UYu7/AgGAUBKkj5uA/GN1XswGts=
+
 react-scripts@3.3.0:
   version "3.3.0"
   resolved "https://registry.yarnpkg.com/react-scripts/-/react-scripts-3.3.0.tgz#f26a21f208f20bd04770f43e50b5bbc151920c2a"
