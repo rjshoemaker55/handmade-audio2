@@ -79,15 +79,22 @@
 @media only screen and (max-width: 600px) {
   #naim-brand {
     background-image: url(/handmade-audio2/static/media/naim_mobile.ad763720.png);
-    background-position-x: -20px;
-    background-size: 100%;
-    background-color: black;
+    background-position-x: 25px;
+  }
+
+  #focal-brand {
+    background-position-x: -380px;
+  }
+
+  #credo-audio-brand {
+    background-position-x: -150px;
+    background-position-y: -100px;
   }
 
   .brand-wrapper {
-    background-position-x: -20px;
-    background-size: 100%;
-    background-color: black;
+    background-size: cover;
+    background-color: #000;
+    background-attachment: initial;
   }
 
   .brand-name {
