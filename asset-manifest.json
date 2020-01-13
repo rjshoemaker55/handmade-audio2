@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/handmade-audio2/static/css/main.2f8de3dd.chunk.css",
-    "main.js": "/handmade-audio2/static/js/main.0371f016.chunk.js",
-    "main.js.map": "/handmade-audio2/static/js/main.0371f016.chunk.js.map",
+    "main.js": "/handmade-audio2/static/js/main.d23a916f.chunk.js",
+    "main.js.map": "/handmade-audio2/static/js/main.d23a916f.chunk.js.map",
     "runtime-main.js": "/handmade-audio2/static/js/runtime-main.20aeefbe.js",
     "runtime-main.js.map": "/handmade-audio2/static/js/runtime-main.20aeefbe.js.map",
-    "static/js/2.4d3a489e.chunk.js": "/handmade-audio2/static/js/2.4d3a489e.chunk.js",
-    "static/js/2.4d3a489e.chunk.js.map": "/handmade-audio2/static/js/2.4d3a489e.chunk.js.map",
+    "static/js/2.fd8eaca6.chunk.js": "/handmade-audio2/static/js/2.fd8eaca6.chunk.js",
+    "static/js/2.fd8eaca6.chunk.js.map": "/handmade-audio2/static/js/2.fd8eaca6.chunk.js.map",
     "index.html": "/handmade-audio2/index.html",
-    "precache-manifest.8307327a03403d110c605ec8dadbe8c9.js": "/handmade-audio2/precache-manifest.8307327a03403d110c605ec8dadbe8c9.js",
+    "precache-manifest.b8254a8e9c1da27fac2a717be8f5c306.js": "/handmade-audio2/precache-manifest.b8254a8e9c1da27fac2a717be8f5c306.js",
     "service-worker.js": "/handmade-audio2/service-worker.js",
     "static/css/main.2f8de3dd.chunk.css.map": "/handmade-audio2/static/css/main.2f8de3dd.chunk.css.map",
-    "static/js/2.4d3a489e.chunk.js.LICENSE": "/handmade-audio2/static/js/2.4d3a489e.chunk.js.LICENSE",
+    "static/js/2.fd8eaca6.chunk.js.LICENSE": "/handmade-audio2/static/js/2.fd8eaca6.chunk.js.LICENSE",
     "static/media/Soundwave_logo-black.png": "/handmade-audio2/static/media/Soundwave_logo-black.acadbe79.png",
     "static/media/Soundwave_logo_white.png": "/handmade-audio2/static/media/Soundwave_logo_white.80de01a1.png",
     "static/media/styles.css": "/handmade-audio2/static/media/statement_header.88aa51c2.jpg",
@@ -21,8 +21,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.20aeefbe.js",
-    "static/js/2.4d3a489e.chunk.js",
+    "static/js/2.fd8eaca6.chunk.js",
     "static/css/main.2f8de3dd.chunk.css",
-    "static/js/main.0371f016.chunk.js"
+    "static/js/main.d23a916f.chunk.js"
   ]
 }
