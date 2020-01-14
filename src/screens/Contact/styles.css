@@ -42,5 +42,6 @@
   #contact-wrapper {
     background-position-x: -500px;
     background-size: cover;
+    overflow: inherit;
   }
 }
