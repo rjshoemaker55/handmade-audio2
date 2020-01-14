@@ -103,7 +103,7 @@
 /* Smart Phones */
 @media only screen and (max-width: 600px) {
   #naim-brand {
-    background-image: url(/handmade-audio2/static/media/naim_mobile.ad763720.png);
+    background-image: url('../../assets/images/brands/naim_mobile.png');
     background-position-x: 5px;
   }
 
@@ -122,7 +122,7 @@
   }
 
   #emmlabs-brand {
-    background-position-x: -100px;
+    background-position-x: -550px;
   }
 
   .brand-wrapper {
@@ -131,14 +131,16 @@
     background-attachment: initial;
   }
 
-  .brand-name {
-    display: none;
-  }
-
   .brand-logo-wrapper {
     position: absolute;
-    left: 30px;
+    left: 10px;
     bottom: 30px;
+    padding: 5px;
+  }
+
+  .scroll-wrapper {
+    left: auto;
+    right: 10px;
   }
 }
 
