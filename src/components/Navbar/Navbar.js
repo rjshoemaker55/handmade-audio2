@@ -45,6 +45,7 @@ const Navbar = () => {
           </Link>
         </li>
       </ul>
+      <div id='appointment-text'>Demonstrations by appointment.</div>
     </div>
   );
 };

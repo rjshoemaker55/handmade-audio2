@@ -58,6 +58,13 @@
   margin-left: 20px;
 }
 
+#appointment-text {
+  color: white;
+  float: right;
+  margin-top: 25px;
+  font-style: italic;
+}
+
 /* RESPONSIVENESS */
 
 @media only screen and (max-width: 600px) {
