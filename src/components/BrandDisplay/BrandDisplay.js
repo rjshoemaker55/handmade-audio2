@@ -4,11 +4,20 @@ import './styles.css';
 
 const BrandDisplay = props => {
   let logoWrapperID;
+  let scrollDisplay;
+
   if (props.logoWrapperID) {
     logoWrapperID = props.logoWrapperID;
   } else {
     logoWrapperID = null;
   }
+
+  if (props.brandId === 'emmlabs-brand') {
+    scrollDisplay = 'hide';
+  } else {
+    scrollDisplay = 'scroll-wrapper';
+  }
+
   return (
     <div id={props.brandId} className='brand-wrapper'>
       <a
@@ -26,7 +35,12 @@ const BrandDisplay = props => {
         />
         <div className='brand-visit-link'>click to visit site</div>
       </a>
-      {/* <div className='brand-name'>{props.brandName}</div> */}
+      <div className={scrollDisplay}>
+        <div className='scroll-text'>Scroll for more.</div>
+        <div className='scroll-arrow-wrapper'>
+          <i className='fas fa-arrow-down'></i>
+        </div>
+      </div>
     </div>
   );
 };
