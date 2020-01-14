@@ -54,6 +54,7 @@
     padding: 15px;
     background-size: 150% auto;
     background-position: -150px 50px;
+    overflow: inherit;
   }
 
   #landing-jumbo-wrapper {
