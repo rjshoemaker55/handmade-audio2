@@ -116,9 +116,13 @@
   }
 
   #credo-audio-brand {
-    background-position-x: -150px;
+    background-position-x: -200px;
     background-position-y: -100px;
     background-color: white;
+  }
+
+  #emmlabs-brand {
+    background-position-x: -100px;
   }
 
   .brand-wrapper {
