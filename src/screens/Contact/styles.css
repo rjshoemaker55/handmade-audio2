@@ -28,6 +28,11 @@
   margin: 15px 0px;
 }
 
+#contact-name {
+  font-weight: bold;
+  font-size: 30px;
+}
+
 .contact-row-text {
   display: inline;
   margin-left: 15px;

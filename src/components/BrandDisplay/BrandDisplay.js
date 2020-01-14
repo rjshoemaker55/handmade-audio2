@@ -2,6 +2,8 @@ import React from 'react';
 
 import './styles.css';
 
+const $ = require('jquery');
+
 const BrandDisplay = props => {
   let logoWrapperID;
   let scrollDisplay;

@@ -1,6 +1,5 @@
 #naim-brand {
   background-image: url('../../assets/images/brands/naim_audio.png');
-  background-position-x: -300px;
   height: calc(100vh - 110px);
 }
 
