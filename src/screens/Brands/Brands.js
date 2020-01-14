@@ -6,7 +6,8 @@ import BrandDisplay from '../../components/BrandDisplay/BrandDisplay';
 import naimLogo from '../../assets/images/logos/naim_logo.jpeg';
 import focalLogo from '../../assets/images/logos/focal_logo.png';
 import isoAcousticsLogo from '../../assets/images/logos/iso_acoustics_logo.png';
-import credoURL from '../../assets/images/logos/credo_audio.png';
+import credoLogo from '../../assets/images/logos/credo_audio.png';
+import emmlabsLogo from '../../assets/images/logos/emmlabs_logo.jpeg';
 
 const Brands = () => {
   return (
@@ -38,11 +39,20 @@ const Brands = () => {
       <BrandDisplay
         brandId='credo-audio-brand'
         brandURL='https://www.credo-audio.ch/credo-loudspeakers-en.html'
-        logoURL={credoURL}
+        logoURL={credoLogo}
         logoAlt='Credo Audio Logo'
         logoID='credo-audio-logo'
         brandName='Credo Audio'
         logoWrapperID='credo-logo-wrapper'
+      />
+      <BrandDisplay
+        brandId='emmlabs-brand'
+        brandURL='http://www.emmlabs.com'
+        logoURL={emmlabsLogo}
+        logoAlt='EmmLabs Logo'
+        logoID='emmlabs-logo'
+        brandName='Emmlabs'
+        logoWrapperID='emmlabs-logo-wrapper'
       />
     </div>
   );

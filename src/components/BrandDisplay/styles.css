@@ -15,8 +15,13 @@
 
 #credo-audio-brand {
   background-image: url('../../assets/images/brands/credo_audio.jpeg');
-  background-size: cover;
-  background-position-y: -300px;
+  background-size: auto 120%;
+  background-position-y: -200px;
+  background-position-x: 300px;
+}
+
+#emmlabs-brand {
+  background-image: url('../../assets/images/brands/emmlabs-brand.png');
 }
 
 #iso-acoustics-logo {
