@@ -1,6 +1,9 @@
 #naim-brand {
   background-image: url('../../assets/images/brands/naim_audio.png');
   height: calc(100vh - 110px);
+  background-position-y: 50%;
+  background-size: 100% auto;
+  background-color: black;
 }
 
 #focal-brand {
