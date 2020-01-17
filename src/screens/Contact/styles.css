@@ -44,4 +44,7 @@
     background-size: cover;
     overflow: inherit;
   }
+  #contact-header {
+    margin-top: 40px;
+  }
 }
