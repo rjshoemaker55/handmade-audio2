@@ -1,3 +1,3 @@
 ### Handmade Audio
 
-www.handmadeaudio.com
+www.handmade-audio.com
