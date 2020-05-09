@@ -16,10 +16,10 @@
 }
 
 #credo-audio-brand {
-  background-image: url('../../assets/images/brands/credo_audio.jpeg');
-  background-size: auto 120%;
+  background-image: url('../../assets/images/brands/credo_audio_room.jpeg');
+  background-size: cover;
   background-position-y: -200px;
-  background-position-x: 300px;
+  background-position-x: -00px;
 }
 
 #emmlabs-brand {
