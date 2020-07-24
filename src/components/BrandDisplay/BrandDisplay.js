@@ -2,7 +2,7 @@ import React from 'react';
 
 import './styles.css';
 
-const BrandDisplay = props => {
+const BrandDisplay = (props) => {
   let logoWrapperID;
   let scrollDisplay;
 
@@ -12,7 +12,7 @@ const BrandDisplay = props => {
     logoWrapperID = null;
   }
 
-  if (props.brandId === 'emmlabs-brand') {
+  if (props.brandId === 'chord-brand') {
     scrollDisplay = 'hide';
   } else {
     scrollDisplay = 'scroll-wrapper';

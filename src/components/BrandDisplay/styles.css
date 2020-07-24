@@ -26,6 +26,10 @@
   background-image: url('../../assets/images/brands/emmlabs-brand.png');
 }
 
+#chord-brand {
+  background-image: url('../../assets/images/brands/chord-company.jpg');
+}
+
 #iso-acoustics-logo {
   width: 250px;
 }
@@ -35,6 +39,10 @@
 }
 #credo-logo-wrapper {
   background: rgb(184, 183, 183);
+}
+
+#chord-logo {
+  width: 150px;
 }
 
 .brand-wrapper {

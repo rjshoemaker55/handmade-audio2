@@ -8,6 +8,7 @@ import focalLogo from '../../assets/images/logos/focal_logo.png';
 import isoAcousticsLogo from '../../assets/images/logos/iso_acoustics_logo.png';
 import credoLogo from '../../assets/images/logos/credo_audio.png';
 import emmlabsLogo from '../../assets/images/logos/emmlabs_logo.jpeg';
+import chordLogo from '../../assets/images/logos/chord-logo.png';
 
 const Brands = () => {
   return (
@@ -53,6 +54,15 @@ const Brands = () => {
         logoID='emmlabs-logo'
         brandName='Emmlabs'
         logoWrapperID='emmlabs-logo-wrapper'
+      />
+      <BrandDisplay
+        brandId='chord-brand'
+        brandURL='https://chord.co.uk/'
+        logoURL={chordLogo}
+        logoAlt='Chord Company Logo'
+        logoID='chord-logo'
+        brandName='Chord Company'
+        logoWrapperID='chord-company-logo'
       />
     </div>
   );
